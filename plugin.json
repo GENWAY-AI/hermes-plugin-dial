@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dial",
+  "version": "1.0.0",
+  "description": "Real phone numbers for AI agents: SMS, iMessage, WhatsApp, AI voice calls, and inbound events.",
+  "author": { "name": "Dial", "email": "support@getdial.ai", "url": "https://getdial.ai" },
+  "homepage": "https://getdial.ai",
+  "repository": "https://github.com/GENWAY-AI/hermes-plugin-dial",
+  "keywords": ["mcp", "telephony", "phone-numbers", "sms", "imessage", "whatsapp", "voice-calls"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "dial": { "trust": "untrusted" }
+      }
+    }
+  }
+}
